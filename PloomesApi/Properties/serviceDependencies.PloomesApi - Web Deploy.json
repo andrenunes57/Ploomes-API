@@ -8,7 +8,7 @@
     },
     "mssql1": {
       "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ploomesdbserver/databases/Ploomes",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ploomesapidbserver/databases/Ploomes",
       "type": "mssql.azure",
       "connectionId": "ServerConnection"
     }

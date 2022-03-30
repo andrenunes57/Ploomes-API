@@ -45,7 +45,9 @@ OU
 [JetBrains Rider](https://www.jetbrains.com/pt-br/rider/download/#section=windows)
 ---
 
-#### Configurações
+#### Configurações / Build
+
+  * Faça o clone do projeto localmente: `git clone https://github.com/andrenunes57/Ploomes-API.git`
 
   * Na pasta raiz do projeto, no arquivo **appsettings.json**, altere o valor da chave `"ServerConnection"` para a string de conexão do seu banco de dados local
 
@@ -55,11 +57,11 @@ Na pasta raiz do projeto `Ploomes-API/`, rode o comando `dotnet restore`
   * Para criar a base de dados local, abra o Console do Gerenciador de Pacotes e rode o comando `update-database`
 Se a abordagem acima não funcionar, instale o **ef tool**, rode `dotnet tool install --global dotnet-ef` e da pasta raiz, navegue para a pasta do projeto `Ploomes-API/PloomesAPI/` e rode o comando `dotnet ef database update`
 
-Verifique se o banco dados com o nome escolhido na string de conexão é listado no software de banco de dados (aparecerá "Ploomes" caso não tenha alterado o nome)  
+  * Verifique se o banco dados com o nome escolhido na string de conexão é listado no software de banco de dados (aparecerá "Ploomes" caso não tenha alterado o nome)  
 
-Rode a aplicação.
+  * Rode a aplicação.
 
-Deverá abrir o Swagger no localhost, num link com o seguinte formato: https://localhost:xxxxx/swagger/index.html
+  * Deverá abrir o Swagger no localhost, num link com o seguinte formato: https://localhost:xxxxx/swagger/index.html
 
 
 

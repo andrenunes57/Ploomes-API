@@ -24,28 +24,23 @@ https://ploomesapi.azurewebsites.net/swagger/index.html
 
 ### 2. Ambiente de Desenvolvimento (localhost)
 
-#### Tecnologias 
-Garante que você possui os seguintes pré-requisitos instalados
+##### Tecnologias 
+Garanta que você possui os seguintes pré-requisitos instalados
 
-  * .NET
-[SDK .NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
----
-
+  * .NET CORE 5
+    * [SDK .NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
   * Banco de Dados
-[SQL Server Management Studio (SSMS)](https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15#download-ssms) 
-OU 
-[Azure Data Studio](https://docs.microsoft.com/pt-br/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15#download-azure-data-studio) além do [Docker Desktop](https://www.docker.com/products/docker-desktop/) junto com a [imagem do Microsoft SQL Server](https://hub.docker.com/_/microsoft-mssql-server)
----
-
+    * [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15#download-ssms) `(Windows)`
+      OU 
+    * [Azure Data Studio](https://docs.microsoft.com/pt-br/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15#download-azure-data-studio) em conjunto com [Docker Desktop](https://www.docker.com/products/docker-desktop/) e a [imagem do Microsoft SQL Server](https://hub.docker.com/_/microsoft-mssql-server)  `(Multiplataforma)`
   * IDE/Editor de código
-[Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/)
-OU
-[Visual Studio Code](https://code.visualstudio.com/download)
-OU
-[JetBrains Rider](https://www.jetbrains.com/pt-br/rider/download/#section=windows)
----
+    * [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) `(Windows e MAC)`
+    OU
+    * [Visual Studio Code](https://code.visualstudio.com/download) `(Multiplataforma)`
+    OU
+    * [JetBrains Rider](https://www.jetbrains.com/pt-br/rider/download/#section=windows) `(Multiplataforma)`
 
-#### Configurações / Build
+##### Configurações / Build
 
   * Faça o clone do projeto localmente:  
 Rode o comando `git clone https://github.com/andrenunes57/Ploomes-API.git`

@@ -47,21 +47,25 @@ OU
 
 #### Configurações / Build
 
-  * Faça o clone do projeto localmente: `git clone https://github.com/andrenunes57/Ploomes-API.git`
+  * Faça o clone do projeto localmente:  
+Rode o comando `git clone https://github.com/andrenunes57/Ploomes-API.git`
 
-  * Na pasta raiz do projeto, no arquivo **appsettings.json**, altere o valor da chave `"ServerConnection"` para a string de conexão do seu banco de dados local
+  * Altere a string de conexão: 
+Na pasta raiz do projeto, no arquivo **appsettings.json**, altere o valor da chave `"ServerConnection"` para a string de conexão do seu banco de dados local
 
   * Garanta que os pacotes NuGet estão restaurados:
 Na pasta raiz do projeto `Ploomes-API/`, rode o comando `dotnet restore`
 
-  * Para criar a base de dados local, abra o Console do Gerenciador de Pacotes e rode o comando `update-database`
-Se a abordagem acima não funcionar, instale o **ef tool**, rode `dotnet tool install --global dotnet-ef` e da pasta raiz, navegue para a pasta do projeto `Ploomes-API/PloomesAPI/` e rode o comando `dotnet ef database update`
+  * Crie o banco de dados local através do Migrations:  
+(Se a IDE for o Visual Studio) -> abra o Console do Gerenciador de Pacotes e rode o comando `update-database`. 
+(Se estiver usando outra IDE) -> instale o **ef tool**, rodando o comando `dotnet tool install --global dotnet-ef` e, da pasta raiz, navegue para a pasta do projeto `Ploomes-API/PloomesAPI/` e rode o comando `dotnet ef database update` 
 
-  * Verifique se o banco dados com o nome escolhido na string de conexão é listado no software de banco de dados (aparecerá "Ploomes" caso não tenha alterado o nome)  
+  * Verifique se o banco da aplicação é listado no software de banco de dados:
+O banco de dados terá o nome dado na string de conexão. Caso não tenha alterado o nome, aparecerá como "Ploomes"
 
-  * Rode a aplicação.
+  * Rode a aplicação
 
   * Deverá abrir o Swagger no localhost, num link com o seguinte formato: https://localhost:xxxxx/swagger/index.html
 
-
+  * Utilize os métodos da API conforme informado no início do README ou na documentação dentro do próprio Swagger.
 

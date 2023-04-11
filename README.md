@@ -16,10 +16,10 @@ Escolha um dos 2 ambientes abaixo para rodar o projeto:
 
 ### 1. Ambiente de Produção (live)
 
-Para utilizar o serviço na nuvem, acesse o link abaixo:
+Para utilizar o serviço na nuvem, acesse o link abaixo (O serviço foi desativado):
 
 https://ploomesapi.azurewebsites.net/swagger/index.html
-(O serviço pode levar alguns segundos para carregar)
+
 
 
 ### 2. Ambiente de Desenvolvimento (localhost)
